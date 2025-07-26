@@ -100,21 +100,21 @@ const Links = () => {
                 <li>
                     <a href="https://github.com/PixieGarfunkel">
                         <SparkleText>
-                            <Image className={`rounded-full ${open ? "" : "h-8"}`} src={GitHub.src} alt="Github" />
+                            <img className={`rounded-full ${open ? "" : "h-8"}`} src={GitHub.src} alt="Github" />
                         </SparkleText>
                     </a>
                 </li>
                 <li>
                     <Link href="https://www.linkedin.com/in/joshua-thomas-9461771b8/">
                         <SparkleText>
-                            <Image className={open ? "" : "h-8"} src={LinkedIn.src} alt="Linkedin" />
+                            <img className={open ? "" : "h-8"} src={LinkedIn.src} alt="Linkedin" />
                         </SparkleText>
                     </Link>
                 </li>
                 <li>
                     <Link href="https://discord.com/users/177497512561606656">
                         <SparkleText>
-                            <Image className={`rounded-full ${open ? "" : "h-8"}`} src={Discord.src} alt="Discord" />
+                            <img className={`rounded-full ${open ? "" : "h-8"}`} src={Discord.src} alt="Discord" />
                         </SparkleText>
                     </Link>
                 </li>
