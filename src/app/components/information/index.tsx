@@ -21,7 +21,8 @@ const Information = () => {
     <>
         <div className="container mx-auto px-4 p-20 h-full">
             <div className="flex justify-start item-center h-full gap-x-20">
-                <img className="flex rounded-full h-75"
+                <img
+                    className="flex rounded-full hidden md:block h-75"
                     src={Face.src} alt="JT Picture" />
                 <div className="container mx-auto px-4 h-full">
                     <h1 className="text-white font-bold text-2xl">
